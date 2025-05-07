@@ -123,7 +123,7 @@ const DailyEntry: React.FC = () => {
       title: '原料名称',
       dataIndex: 'name',
       key: 'name',
-      fixed: 'left',
+      fixed: 'left' as const,
       width: 150
     },
     {
